@@ -25,7 +25,7 @@ import time
 
 timeReg1 = 0
 timeReg2 = 0
-timeReg2 = 0 
+timeReg3 = 0 
 for i in range(5):
     timeS1 = time.time()
     data = pd.read_csv("https://storage.googleapis.com/eubucket-week10/adult.data") #From Bucket in .... Region
