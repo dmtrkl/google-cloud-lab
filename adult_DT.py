@@ -34,7 +34,7 @@ end = time.time() - start
 print('accuracy : {} '.format(accuracy))
 print('time taken : {} '.format(end))
 
-blob = storage.Blob("adult-script.data", bucket)
+blob = storage.Blob("adult-results.data", bucket)
 blob.upload_from_string('accuracy : {} '.format(accuracy) + '\n' + 'time taken : {} '.format(end))
 
 
