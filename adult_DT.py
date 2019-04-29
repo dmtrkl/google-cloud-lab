@@ -35,7 +35,7 @@ print('accuracy : {} '.format(accuracy))
 print('time taken : {} '.format(end))
 
 blob = storage.Blob("adult-script.data", bucket)
-blob.upload_from_string('accuracy : {} '.format(accuracy) + '\n' + time taken : {} '.format(end)')
+blob.upload_from_string('accuracy : {} '.format(accuracy) + '\n' + 'time taken : {} '.format(end))
 
 
 timeReg1 = 0
